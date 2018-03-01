@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SimpleSmokeTest">
+	<test name="BsuirTest">
+		<groups>
+			<run>
+				<include name="runnerTest" />
+				<include name="numberOfBooks_test" />
+				<include name="numeration_test" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="by.htp.test.bsuir.BsuirTest" />
+		</classes>
+
+	</test>
+</suite>
